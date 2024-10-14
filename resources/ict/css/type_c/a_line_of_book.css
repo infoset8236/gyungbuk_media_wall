@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../../img/type_c/a_line_of_book/background.svg') center center no-repeat;
+  background-size: cover;
+}
+
+.content {
+  margin-top: 377px;
+  margin-left: 276px;
+}
+
+.description {
+  font-family: "SeoulHangang CM", sans-serif;
+  font-size: 120px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: -2.4px;
+  color: #FFFFFF;
+}
+
+.caption {
+  font-family: "Pretendard", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 60px;
+  color: #EFF1F3;
+}
+
+@media (width: 1920px) {
+  .content {
+    margin-top: 188.5px;
+    margin-left: 138px;
+  }
+
+  .description {
+    font-family: "SeoulHangang CM", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+  }
+
+  .caption {
+    font-family: "Pretendard", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 30px;
+    color: #EFF1F3;
+  }
+}
