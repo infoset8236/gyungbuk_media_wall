@@ -1,0 +1,156 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../../img/type_c/welcome_message/background.png') center center no-repeat;
+  background-size: cover;
+}
+
+.content {
+  margin-top: 434px;
+  margin-left: 400px;
+}
+
+.description {
+  font-family: "Pretendard", sans-serif;
+  font-size: 140px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -3.5px;
+  color: #191F28;
+}
+
+.description span{
+  font-family: "Pretendard", sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -3.5px;
+  color: #191F28;
+}
+
+.caption {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 120%;
+  margin-top: 60px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.ticker_wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+}
+
+.ticker {
+  font-family: "Pretendard", sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  overflow: hidden;
+  height: 128px;
+  padding: 40px 70px;
+  animation: tickerAnimation 10s linear infinite;
+  white-space: nowrap;
+  color: #FFFFFF;
+  background: #000;
+}
+
+@keyframes tickerAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (width: 1920px) {
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url('../../img/type_c/welcome_message/background.png') center center no-repeat;
+    background-size: cover;
+  }
+
+  .content {
+    margin-top: 217px;
+    margin-left: 200px;
+  }
+
+  .description {
+    font-family: "Pretendard", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.75px;
+    color: #191F28;
+  }
+
+  .description span {
+    font-family: "Pretendard", sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.75px;
+    color: #191F28;
+  }
+
+  .caption {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 60%;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .ticker_wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+  }
+
+  .ticker {
+    font-family: "Pretendard", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    overflow: hidden;
+    height: 64px;
+    padding: 20px 35px;
+    animation: tickerAnimation 10s linear infinite;
+    white-space: nowrap;
+    color: #FFFFFF;
+    background: #000;
+  }
+
+  @keyframes tickerAnimation {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+}
