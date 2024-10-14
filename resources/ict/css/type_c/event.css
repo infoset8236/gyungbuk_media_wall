@@ -1,0 +1,184 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../../img/type_c/event/background.svg') center center no-repeat;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.today {
+  font-family: "Pretendard", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 100%;
+  margin-top: 354px;
+  margin-bottom: 80px;
+  text-align: center;
+  letter-spacing: 10.4px;
+  text-transform: uppercase;
+  color: #FFEC8B;
+}
+
+.event-title {
+  font-family: "Pretendard", sans-serif;
+  font-size: 200px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 30px 200px;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.20);
+  gap: 160px;
+}
+
+.event-time {
+  font-family: "Pretendard", sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 140%;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  color: #F7F8FA;
+}
+
+.event-time span {
+  font-family: "Pretendard", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 140%;
+  overflow: hidden;
+  margin-right: 52px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  color: #FFEC8B;
+}
+
+.moon {
+  position: absolute;
+  top: 409px;
+  left: 360px;
+  width: 196px;
+  height: 200px;
+}
+
+.user {
+  position: absolute;
+  right: 260px;
+  bottom: 209px;
+  width: 640px;
+  height: 343px;
+}
+
+
+
+@media (width: 1920px) {
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .today {
+    font-family: "Pretendard", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100%;
+    margin-top: 177px;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 5.2px;
+    text-transform: uppercase;
+    color: #FFEC8B;
+  }
+
+  .event-title {
+    font-family: "Pretendard", sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 15px 100px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.20);
+    gap: 160px;
+  }
+
+  .event-time {
+    font-family: "Pretendard", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+    overflow: hidden;
+    align-items: center;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    color: #F7F8FA;
+  }
+
+  .event-time span {
+    font-family: "Pretendard", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 140%;
+    overflow: hidden;
+    margin-right: 26px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    color: #FFEC8B;
+  }
+
+  .moon {
+    position: absolute;
+    top: 204.5px;
+    left: 180px;
+    width: 98px;
+    height: 100px;
+  }
+
+  .user {
+    position: absolute;
+    right: 130px;
+    bottom: 104.5px;
+    width: 320px;
+    height: 171.5px;
+  }
+}
