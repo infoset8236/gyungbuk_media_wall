@@ -1,0 +1,116 @@
+.event_slider {
+	position: relative;
+	height: 100%;
+}
+.today_wrap .time_place {
+	display: flex;
+	flex-direction: row;
+	gap: 80px;
+	justify-content: space-between;
+	position: absolute;
+	left: calc(50% - 1400px);
+	top: 850px;
+}
+.today_wrap .time_place_wrap {
+	border-radius: 200px;
+	border-style: solid;
+	border-color: rgba(229, 232, 235, 0.5);
+	border-width: 3px;
+	padding: 60px 160px 60px 160px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 48px;
+	flex-shrink: 0;
+	width: 1360px;
+	position: relative;
+}
+.today_wrap .event_label {
+	color: #8b95a1;
+	font-family: 'Pretendard-SemiBold', sans-serif;
+	font-size: 60px;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+.today_wrap .event_ex {
+	color: #ffffff;
+	font-family: 'Pretendard-SemiBold', sans-serif;
+	font-size: 92px;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+
+.today_wrap .book-talk {
+	display: flex;
+	flex-direction: column;
+	gap: 160px;
+	align-items: center;
+	justify-content: center;
+	top: 1183px;
+	width: 2576px;
+	height: 572px;
+	overflow: hidden;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Pretendard-SemiBold', sans-serif;
+	font-size: 240px;
+	letter-spacing: -0.025em;
+	font-weight: 600;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.today_wrap .swiper-pagination {
+	top: 1960px !important;
+}
+.today_wrap .swiper-pagination span {
+	margin: 0 12px !important;
+	background: #adb5bd;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+.today_wrap span.swiper-pagination-bullet-active {
+	background: #fff;
+}
+
+@media (max-width: 1920px) {
+	.today_wrap .time_place {
+		gap: 40px;
+		left: calc(50% - 700px);
+		top: 425px;
+	}
+	.today_wrap .time_place_wrap {
+		border-radius: 100px;
+		border-width: 2px;
+		padding: 30px 80px;
+		gap: 24px;
+		flex-shrink: 0;
+		width: 680px;
+	}
+	.today_wrap .event_label {
+		font-size: 30px;
+	}
+	.today_wrap .event_ex {
+		font-size: 46px;
+	}
+
+	.today_wrap .book-talk {
+		gap: 80px;
+		top: 590px;
+		width: 1288px;
+		height: 286px;
+		font-size: 120px;
+	}
+	.today_wrap .swiper-pagination {
+		top: 980px !important;
+	}
+	.today_wrap .swiper-pagination span {
+		margin: 0 6px !important;
+		width: 12px;
+		height: 12px;
+	}
+}
