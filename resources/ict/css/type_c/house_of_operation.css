@@ -25,31 +25,172 @@
   color: #191F28;
 }
 
+
 .table {
+  font-family: 'Pretendard-Regular', sans-serif;
   width: 100%;
   border-collapse: collapse;
   text-align: center;
 }
 
-.table .table_header {
+.table th:first-child {
+  border-radius: 40px 0 0 0;
+}
+
+.table th:last-child {
+  border-radius: 0 40px 0 0;
+}
+
+.table tr:first-child td:first-child {
+  border-bottom: 2px solid rgba(185, 185, 185, 0.20);
+
+}
+
+.table tr:first-child td:nth-child(2) {
+  border-bottom: 2px solid rgba(185, 185, 185, 0.20);
+
+}
+
+.table tr:nth-child(2) td:first-child {
+  border-bottom: 2px solid rgba(185, 185, 185, 0.20);
+
+}
+
+.table tr:nth-child(2) td:nth-child(2) {
+  border-bottom: 2px solid rgba(185, 185, 185, 0.20);
+}
+
+.table tr:nth-child(2) td:nth-child(3) {
+  border-top: 2px solid rgba(185, 185, 185, 0.20);
+}
+
+.table tr:last-child td:first-child {
+  border-radius: 0 0 0 40px;
+}
+
+.table tr:last-child td:last-child {
+  border-top: 2px solid rgba(185, 185, 185, 0.20);
+  border-radius: 0 0 40px 0;
+
+}
+
+.blue {
   font-family: "Pretendard", sans-serif;
   font-size: 68px;
   font-weight: 500;
   font-style: normal;
   line-height: normal;
-  width: 3120px;
-  text-align: center;
-  letter-spacing: -1.7px;
-  color: #FFF;
-  border-radius: 40px 40px 0 0;
-  background-color: #188FD2;
-}
-
-.table .table_header th {
   padding: 60px;
   text-align: center;
+  letter-spacing: -1.7px;
+  color: #ffffff;
+  background: #188FD2;
 }
 
-@media (width: 1920px) {
+.white {
+  font-family: "Pretendard", sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  padding: 60px;
+  text-align: center;
+  letter-spacing: -1.8px;
+  color:#191F28;
+  background: #ffffff;
+}
 
+.black {
+  color: #191F28 !important;
+}
+
+
+@media (width: 1920px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 76px 180px;
+  }
+
+  .content_title {
+    font-family: "Pretendard", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 60px;
+    text-align: center;
+    letter-spacing: -1.6px;
+    color: #191F28;
+  }
+
+  .table {
+    font-family: 'Pretendard-Regular', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .table th:first-child {
+    border-radius: 20px 0 0 0;
+  }
+
+  .table th:last-child {
+    border-radius: 0 20px 0 0;
+  }
+
+  .table tr:first-child td:first-child {
+    border-bottom: 1px solid rgba(185, 185, 185, 0.20);
+  }
+
+  .table tr:first-child td:nth-child(2) {
+    border-bottom: 1px solid rgba(185, 185, 185, 0.20);
+  }
+
+  .table tr:nth-child(2) td:first-child {
+    border-bottom: 1px solid rgba(185, 185, 185, 0.20);
+  }
+
+  .table tr:nth-child(2) td:nth-child(2) {
+    border-bottom: 1px solid rgba(185, 185, 185, 0.20);
+  }
+
+  .table tr:nth-child(2) td:nth-child(3) {
+    border-top: 1px solid rgba(185, 185, 185, 0.20);
+  }
+
+  .table tr:last-child td:first-child {
+    border-radius: 0 0 0 20px;
+  }
+
+  .table tr:last-child td:last-child {
+    border-top: 1px solid rgba(185, 185, 185, 0.20);
+    border-radius: 0 0 20px 0;
+  }
+
+  .blue {
+    font-family: "Pretendard", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: -0.85px;
+    color: #ffffff;
+    background: #188FD2;
+  }
+
+  .white {
+    font-family: "Pretendard", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: -0.9px;
+    color: #191F28;
+    background: #ffffff;
+  }
 }

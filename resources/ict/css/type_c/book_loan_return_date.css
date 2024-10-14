@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../../img/type_c/book_loan_return_date/background.png') center center no-repeat;
+  background-size: cover;
+}
+
+.black {
+  color: #191F28 !important;
+}
+
+@media (width: 1920px) {
+
+}

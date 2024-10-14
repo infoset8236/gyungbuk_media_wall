@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url('../../img/type_c/promotion/background.svg') center center no-repeat;
+  background-size: cover;
+}
+
+@media (width: 1920px) {
+
+}
