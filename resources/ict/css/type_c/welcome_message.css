@@ -57,12 +57,12 @@
   font-weight: 500;
   font-style: normal;
   line-height: normal;
+  position: relative; /* 추가 */
   display: flex;
   overflow: hidden;
   align-items: center;
-  height: 128px;
   padding: 40px 70px;
-  animation: tickerAnimation 30s linear infinite;
+  animation: tickerAnimation 100s linear infinite;
   white-space: nowrap;
   color: #FFFFFF;
   background: #000;
@@ -87,10 +87,10 @@
 
 @keyframes tickerAnimation {
   0% {
-    transform: translateX(100%);
+    transform: translateX(100%); /* 티커를 화면 오른쪽 끝에서 시작 */
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-100%); /* 티커가 왼쪽으로 완전히 이동 */
   }
 }
 
@@ -165,11 +165,10 @@
 
   @keyframes tickerAnimation {
     0% {
-      transform: translateX(50%);
+      transform: translateX(100%); /* 티커를 화면 오른쪽 끝에서 시작 */
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100%); /* 티커가 왼쪽으로 완전히 이동 */
     }
   }
-
 }
