@@ -54,6 +54,55 @@
   color: #EFF1F3;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.cherry_blossom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.petal {
+  position: absolute;
+  z-index: 1;
+  transition: transform 1000ms linear;
+  pointer-events: none;
+  border-radius: 10% 50% 40% 50%;
+  background: url('../../img/type_c/a_line_of_book/leaf.png') center center no-repeat;
+  background-size: cover;
+  transform-style: preserve-3d;
+}
+
+@keyframes fall {
+  0% {
+    top: -50px;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0.2;
+  }
+}
+
 @media (width: 1920px) {
   .content {
     margin-top: 188.5px;
