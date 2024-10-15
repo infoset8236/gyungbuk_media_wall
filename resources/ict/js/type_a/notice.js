@@ -1,15 +1,25 @@
 $(function () {
-	const swiper = new Swiper('.notice_slider', {
-		loop: true, // 무한 반복
-		slidesPerView: 4, // 항상 4개의 슬라이드 표시
-		loopedSlides: 4, // 최소 4개의 슬라이드가 보이도록 설정
+	var mySwiper = new Swiper('.notice_slider', {
+		slidesPerView: 1,
+		direction: 'horizontal',
+		reverseDirection: true,
+		freeMode: true,
+		observe: true,
+		observeParent: true,
+		speed: 58000,
 		pagination: {
 			el: '.swiper-pagination',
-			clickable: true,
 		},
-		speed: 58000,
+		keyboard: {
+			enabled: true,
+			onlyInViewport: false,
+		},
+		mousewheel: {
+			invert: true,
+		},
 		autoplay: {
 			delay: 0,
 		},
+		loop: true,
 	});
 });

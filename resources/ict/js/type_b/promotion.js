@@ -110,7 +110,8 @@ var weatherskor = new Array(
 	'구름 약간',
 	'약간 흐림',
 	'흐림 구름',
-	'많이 흐림'
+	'많이 흐림',
+	'구름 많음'
 );
 var i;
 
@@ -120,7 +121,6 @@ $.ajax({
 	type: 'GET',
 	async: 'false',
 	success: function (data) {
-		console.log(data);
 		$('.weather-box span.feels_like').html(parseFloat(data.list[0].main.feels_like.toFixed(1)) + '°');
 		$('.weather-box .weather_icon').addClass('w' + data.list[0].weather[0].icon);
 		$('.weather-box span.temp').html(parseFloat(data.list[0].main.temp.toFixed(1)) + '°');

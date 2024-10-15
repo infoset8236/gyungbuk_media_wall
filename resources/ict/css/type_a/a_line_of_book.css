@@ -1,3 +1,6 @@
+.ict_tit {
+	color: #8b95a1 !important;
+}
 .bookline-wrap .li_book_tit_wrap {
 	position: absolute;
 	top: calc(50% - 136px);
@@ -19,17 +22,19 @@
 	-ms-flex-pack: center;
 }
 .bookline-wrap .li_book_tit {
+	color: #ffffff;
+	text-align: center;
 	font-family: 'SeoulHangangCm-Regular', sans-serif;
 	font-size: 100px;
-	font-weight: 400;
 	line-height: 150%;
-	text-align: center;
 	letter-spacing: -0.02em;
-	color: #ffffff;
+	font-weight: 400;
+	/*display: none;*/
 }
 .bookline-wrap .li_book_tit span {
-	font-family: 'SeoulHangangCm-Regular', sans-serif;
+	font-family: 'SeoulHangangCm-Regular';
 }
+
 .bookline-wrap .li_book_tit_02 {
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 40px;

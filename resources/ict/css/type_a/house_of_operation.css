@@ -8,6 +8,11 @@
 	-webkit-backdrop-filter: blur(50px);
 	backdrop-filter: blur(50px);
 }
+
+.info-wrap .ict_tit {
+	color: #8b95a1;
+}
+
 .info-wrap .bg_oper_02 {
 	position: absolute;
 	top: calc(50% - 1080px);
