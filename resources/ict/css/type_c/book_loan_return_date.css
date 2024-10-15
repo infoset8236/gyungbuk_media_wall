@@ -8,15 +8,13 @@
 }
 
 .black {
-  color: #191F28 !important;
+  color: #191f28 !important;
 }
 
 .content {
-  display: flex;
-  justify-content: center;
-  margin-top: 94px;
-  gap: 110px;
+
 }
+
 
 @media (width: 1920px) {
 
