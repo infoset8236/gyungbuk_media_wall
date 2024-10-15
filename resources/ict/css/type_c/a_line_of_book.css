@@ -30,6 +30,7 @@
 }
 
 .content {
+  z-index: 10;
   margin-top: 377px;
   margin-left: 276px;
 }
