@@ -66,6 +66,23 @@
   background: #000;
 }
 
+.content {
+  transform: translateY(20px);
+  animation: slide-up 1s forwards;
+  opacity: 0;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes tickerAnimation {
   0% {
     transform: translateX(100%);
