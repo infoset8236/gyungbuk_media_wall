@@ -105,7 +105,7 @@
 	width: 1680px;
 	position: absolute;
 	left: calc(50% - 840px);
-	top: calc(50% - 737.5px);
+	top: calc(50% - 737px);
 }
 .rectangle-dim {
 	width: 3840px;
@@ -188,7 +188,6 @@
 	justify-content: flex-start;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
 .welcome_wrap .div {
@@ -201,7 +200,7 @@
 	font-weight: 500;
 	position: absolute;
 	left: calc(50% - 1080px);
-	top: calc(50% - -378.11px);
+	top: calc(50% - -378px);
 	width: 2160px;
 	animation: fadein 3s;
 	-moz-animation: fadein 3s; /* Firefox */
@@ -267,7 +266,7 @@
 	.welcome_wrap .div {
 		font-size: 60px;
 		left: calc(50% - 540px);
-		top: calc(50% - -189.055px);
+		top: calc(50% - -190px);
 		width: 1080px;
 	}
 	.lib_tit {

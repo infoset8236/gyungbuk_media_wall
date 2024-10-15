@@ -200,3 +200,97 @@
 		local('SeoulHangangCmBL'),
 		url(../fonts/SeoulHangangEB.ttf) format('truetype');
 }
+
+/* -------- 서울남산체 -------- */
+@font-face {
+	font-family: 'SeoulNamsanM';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local('SeoulNamsanM'),
+		local('SeoulNamsanM'),
+		url(../fonts/SeoulNamsanM.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'SeoulNamsanL';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('SeoulNamsanL'),
+		local('SeoulNamsanL'),
+		url(../fonts/SeoulNamsanL.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'SeoulNamsanB';
+	font-style: normal;
+	font-weight: 600;
+	src:
+		local('SeoulNamsanB'),
+		local('SeoulNamsanB'),
+		url(../fonts/SeoulNamsanB.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'SeoulNamsanEB';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('SeoulNamsanEB'),
+		local('SeoulNamsanEB'),
+		url(../fonts/SeoulNamsanEB.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'SeoulNamsanCEB';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local('SeoulNamsanCEB'),
+		local('SeoulNamsanCEB'),
+		url(../fonts/SeoulNamsanCEB.ttf) format('truetype');
+}
+
+/* -------- 나눔명조 -------- */
+
+@font-face {
+	font-family: 'NanumMyeongjo';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local('NanumMyeongjo'),
+		local('NanumMyeongjo'),
+		url(../fonts/NanumMyeongjo.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumMyeongjoBold';
+	font-style: normal;
+	font-weight: 600;
+	src:
+		local('NanumMyeongjoBold'),
+		local('NanumMyeongjoBold'),
+		url(../fonts/NanumMyeongjoBold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumMyeongjoExtraBold';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('NanumMyeongjoExtraBold'),
+		local('NanumMyeongjoExtraBold'),
+		url(../fonts/NanumMyeongjoExtraBold.ttf) format('truetype');
+}
+
+/* -------- Fjalla_One -------- */
+@font-face {
+	font-family: 'FjallaOne-Regular';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local('FjallaOne-Regular'),
+		local('FjallaOne-Regular'),
+		url(../fonts/FjallaOne-Regular.ttf) format('truetype');
+}

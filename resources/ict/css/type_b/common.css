@@ -1,0 +1,268 @@
+.div_wrap,
+.div_wrap * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.div_wrap {
+	height: 2160px;
+	position: relative;
+	overflow: hidden;
+}
+
+.bg_wrap {
+	width: 3840px;
+	height: 2160px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.bookinfo-wrap .header_wrap {
+	position: relative;
+}
+
+.header_wrap {
+	color: #8b95a1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 3840px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.header_frame {
+	padding: 100px 160px 100px 160px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 3840px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+.header_group {
+	color: #ffffff;
+	text-align: left;
+	font-family: 'Pretendard-SemiBold', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	position: relative;
+	width: 3520px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ict_tit,
+.ict_tit_01 {
+	text-align: left;
+	font-family: 'Pretendard-SemiBold', sans-serif;
+	font-size: 32px;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+
+.ict_tit_01 {
+	color: #191f28;
+}
+
+.ict_tit {
+	color: #8b95a1;
+}
+
+.daily_wrap {
+	background: #272930;
+}
+
+.daily_wrap .daily_tit_wrap {
+	width: 3840px;
+	height: 820px;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	top: 0px;
+	overflow: hidden;
+}
+
+.daily_wrap .daily_tit_frame {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	gap: 40px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: 0px;
+}
+
+.daily_wrap .large_tit {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 3000px;
+	height: 358px;
+	position: static;
+}
+
+.daily_wrap .large_ltext {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Pretendard-Medium', sans-serif;
+	font-size: 300px;
+	font-weight: 500;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	top: calc(50% - 180px);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.daily_wrap .small_stit {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 548px;
+	height: 142px;
+	position: static;
+}
+
+.daily_wrap .lending-day {
+	color: #adb5bd;
+	text-align: center;
+	font-family: 'Pretendard-Regular', sans-serif;
+	font-size: 100px;
+	font-weight: 400;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	top: 398px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@media (max-width: 1920px) {
+	.div_wrap {
+		height: 1080px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.bg_wrap {
+		width: 1920px;
+		height: 1080px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+
+	.header_wrap {
+		/* padding: 50px 80px; */
+		width: 1920px;
+	}
+
+	.header_frame {
+		padding: 50px 80px;
+		width: 1920px;
+	}
+
+	.header_group {
+		height: 19px;
+		width: 1760px;
+	}
+
+	.ict_tit,
+	.ict_tit_01 {
+		font-size: 16px;
+		letter-spacing: 0.05em;
+		/* width: 1920px; */
+	}
+
+	.ticker {
+		padding: 20px 35px 20px 35px;
+		gap: 10px;
+		max-width: 1920px;
+		width: 100%;
+		max-height: 64px;
+	}
+
+	.div2 {
+		font-size: 22px;
+		font-weight: 500;
+	}
+
+	.daily_wrap .daily_tit_wrap {
+		width: 1920px;
+		height: 410px;
+	}
+
+	.daily_wrap .daily_tit_frame {
+		gap: 20px;
+	}
+
+	.daily_wrap .large_tit {
+		width: 1500px;
+		height: 179px;
+	}
+
+	.daily_wrap .large_ltext {
+		font-size: 150px;
+		top: calc(50% - 90px);
+	}
+
+	.daily_wrap .small_stit {
+		width: 274px;
+		height: 71px;
+	}
+
+	.daily_wrap .lending-day {
+		font-size: 50px;
+		top: 199px;
+	}
+}
