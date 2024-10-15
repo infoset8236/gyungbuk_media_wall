@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport" />
+		<meta content="ie=edge" http-equiv="X-UA-Compatible" />
+		<link href="../../../../../resources/ict/css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../../resources/ict/css/font.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../../resources/ict/css/flipclock.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../../resources/ict/css/type_b/common.css" rel="stylesheet" type="text/css" />
+		<link href="../../../../../resources/ict/css/type_b/book_loan_return_date.css" rel="stylesheet" type="text/css" />
+		<script src="../../../../../resources/ict/plugin/jquery-3.7.1.min.js" type="text/javascript"></script>
+		<script src="../../../../../resources/ict/plugin/flipclock.min.js" type="text/javascript"></script>
+		<script src="../../../../../resources/ict/js/type_b/book_loan_return_date/index.js" type="text/javascript"></script>
+		<title>대출반납일</title>
+	</head>
+	<body>
+		<div class="div_wrap daily_wrap returnlo_book_page" id="b_loan">
+			<img class="bg_wrap" src="../../../../../resources/ict/img/type_b/book_loan_return_date/bg_loan.png" />
+			<div class="header_wrap">
+				<div class="header_frame">
+					<div class="header_group">
+						<div class="ict_tit_01">대출반납일</div>
+						<div class="ict_tit">Book Borrowing Return Date</div>
+					</div>
+				</div>
+			</div>
+			<div class="loan_area loan_wrap_01">
+				<div class="loan_label">
+					<p class="loan_kr">대출일</p>
+					<span class="loan_en">LOAN DATE</span>
+				</div>
+				<div class="clock-container">
+					<div class="clock">
+						<div class="label">MONTH</div>
+						<div id="loan-month"></div>
+					</div>
+					<div class="clock">
+						<div class="label">DAY</div>
+						<div id="loan-day"></div>
+					</div>
+					<div class="clock">
+						<div class="label">WEEK</div>
+						<div id="loan-weekday"></div>
+					</div>
+					<!--<div class="clock">
+                        <div id="loan-seconds"></div>
+                        <div class="label"></div>
+                    </div>-->
+				</div>
+			</div>
+			<div class="loan_area loan_wrap_02">
+				<div class="loan_label">
+					<p class="loan_kr">반납일</p>
+					<span class="loan_en">Return DATE</span>
+				</div>
+				<div class="clock-container con_02">
+					<div class="clock">
+						<div class="label">MONTH</div>
+						<div id="return-month"></div>
+					</div>
+					<div class="clock">
+						<div class="label">DAY</div>
+						<div id="return-day"></div>
+					</div>
+					<div class="clock">
+						<div class="label">WEEK</div>
+						<div id="return-weekday"></div>
+					</div>
+					<!--<div class="clock">
+                        <div id="return-seconds"></div>
+                        <div class="label"></div>
+                    </div>-->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

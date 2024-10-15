@@ -1,0 +1,111 @@
+.notice_info .ict_tit_01 {
+	color: #fff;
+}
+.notice_info .notice_img {
+	width: 900px;
+	height: 1270px;
+	-webkit-box-shadow: 0px 50px 50px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 50px 50px 0px rgba(0, 0, 0, 0.2);
+	-o-object-fit: cover;
+	object-fit: cover;
+	border-radius: 40px;
+}
+
+.notice_info .thum_frame {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	align-items: center;
+	justify-content: flex-start;
+	width: 900px;
+}
+.notice_info .notice_title {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	align-items: flex-start;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+.notice_info .notice_title p {
+	color: #191f28;
+	text-align: left;
+	font-family: 'Pretendard-Medium', sans-serif;
+	font-size: 52px;
+	line-height: 140%;
+	letter-spacing: -0.02em;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+	width: 780px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+}
+.notice_info .notice_title span {
+	color: #191f28;
+	text-align: left;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 70px;
+	line-height: 100%;
+	letter-spacing: -0.02em;
+	font-weight: 800;
+	text-transform: uppercase;
+	position: relative;
+}
+.notice_info .notice_slider {
+	position: relative;
+	top: 376px;
+	/* height: 1350px; */
+	margin: 0 auto;
+	width: 3200px;
+}
+.notice_info .notice_slider .frame_img {
+	display: inline-block;
+	width: 900px !important;
+	margin: 0 120px;
+}
+
+.swiper-wrapper {
+	-webkit-transition-timing-function: linear !important;
+	-o-transition-timing-function: linear !important;
+	transition-timing-function: linear !important;
+}
+
+@media (max-width: 1920px) {
+	.notice_info .notice_img {
+		width: 450px;
+		height: 635px;
+		-webkit-box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.2);
+		border-radius: 20px;
+	}
+
+	.notice_info .thum_frame {
+		gap: 40px;
+		width: 450px;
+	}
+	.notice_info .notice_title {
+		gap: 15px;
+	}
+
+	.notice_info .notice_title p {
+		font-size: 26px;
+		width: 390px;
+	}
+	.notice_info .notice_title span {
+		font-size: 35px;
+	}
+	.notice_info .notice_slider {
+		top: 188px;
+		width: 1600px;
+	}
+	.notice_info .notice_slider .frame_img {
+		display: inline-block;
+		width: 450px !important;
+		margin: 0 60px;
+	}
+}

@@ -1,0 +1,113 @@
+.event_wrapper {
+	width: 2000px;
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: absolute;
+	left: 340px;
+	top: calc(50% - 480px);
+	z-index: 9;
+}
+.event_wrapper h2 {
+	color: #b87045;
+	text-align: left;
+	font-family: 'Pretendard-Bold', sans-serif;
+	font-size: 52px;
+	line-height: 100%;
+	letter-spacing: 0.2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.event_wrapper h4 {
+	color: #191f28;
+	text-align: left;
+	font-family: 'Pretendard-SemiBold', sans-serif;
+	font-size: 200px;
+	line-height: 130%;
+	letter-spacing: -0.02em;
+	font-weight: 600;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	height: 476px;
+}
+
+.event_wrapper .time_place {
+	display: flex;
+	flex-direction: row;
+	gap: 160px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+	width: 2000px;
+}
+.event_wrapper .time_place_wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 60px;
+	align-items: center;
+}
+.event_wrapper .event_label {
+	color: #b87045;
+	text-align: left;
+	font-family: 'Pretendard-SemiBold', sans-serif;
+	font-size: 60px;
+	line-height: 140%;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.event_wrapper .event_ex {
+	color: #6b7684;
+	text-align: left;
+	font-family: 'Pretendard-Medium', sans-serif;
+	font-size: 72px;
+	line-height: 140%;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+@media (max-width: 1920px) {
+	.event_wrapper {
+		width: 1000px;
+		gap: 50px;
+		left: 170px;
+		top: calc(50% - 240px);
+	}
+	.event_wrapper h2 {
+		font-size: 26px;
+	}
+
+	.event_wrapper h4 {
+		font-size: 100px;
+		height: 238px;
+	}
+
+	.event_wrapper .time_place {
+		gap: 80px;
+		width: 1000px;
+	}
+	.event_wrapper .time_place_wrap {
+		gap: 30px;
+	}
+	.event_wrapper .event_label {
+		font-size: 30px;
+	}
+	.event_wrapper .event_ex {
+		font-size: 36px;
+	}
+}
