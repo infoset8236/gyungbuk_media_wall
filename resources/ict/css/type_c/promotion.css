@@ -7,6 +7,310 @@
   background-size: cover;
 }
 
-@media (width: 1920px) {
+.content {
+  display: flex;
+  align-items: center;
+  margin-top: 134px;
+}
 
+.clock_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock {
+  position: relative;
+  width: 480px;
+  height: 480px;
+  margin-right: 100px;
+  margin-left: 104px;
+  background: url('../../img/type_c/promotion/clock.png') center center no-repeat;
+  background-size: cover;
+}
+
+.hour {
+  position: absolute;
+  z-index: 10;
+  top: calc(50% - 120px);
+  left: calc(50% - 4px);
+  width: 5px;
+  height: 120px;
+  transform-origin: bottom;
+  background-color: #FFFFFF;
+}
+
+.minute {
+  position: absolute;
+  z-index: 5;
+  top: calc(50% - 180px);
+  left: calc(50% - 4px);
+  width: 5px;
+  height: 180px;
+  transform-origin: bottom;
+  background-color: #FFFFFF;
+}
+
+.second {
+  position: absolute;
+  z-index: 1;
+  top: calc(50% - 190px);
+  left: calc(50% - 3px);
+  width: 1px;
+  height: 190px;
+  transform-origin: bottom;
+  background-color: #FFFFFF;
+}
+
+#clock_date {
+  font-family: "Pretendard", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  margin-top: 76px;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: -0.84px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+#clock_time {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.video {
+  width: 2472px;
+  height: 1390px;
+}
+
+.video img {
+  object-fit: cover;
+}
+
+.weather_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 164px;
+}
+
+.today {
+  font-family: "Pretendard", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 3.74px;
+  text-transform: uppercase;
+  color: #ADB5BD;
+}
+
+.weather_description {
+  font-family: "Pretendard", sans-serif;
+  font-size: 62px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  margin-top: 94px;
+  margin-bottom: 160px;
+  text-align: center;
+  letter-spacing: -1.24px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.weather_img {
+  width: 248.001px;
+  height: 200px;
+  margin-bottom: 105px;
+}
+
+.weather {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 140px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.weather_caption {
+  font-family: "Pretendard", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (width: 1920px) {
+  .content {
+    display: flex;
+    align-items: center;
+    margin-top: 67px;
+  }
+
+  .clock_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .clock {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin-right: 50px;
+    margin-left: 52px;
+    background: url('../../img/type_c/promotion/clock.png') center center no-repeat;
+    background-size: cover;
+  }
+
+  .hour {
+    position: absolute;
+    z-index: 10;
+    top: calc(50% - 60px);
+    left: calc(50% - 2px);
+    width: 2.5px;
+    height: 60px;
+    transform-origin: bottom;
+    background-color: #FFFFFF;
+  }
+
+  .minute {
+    position: absolute;
+    z-index: 5;
+    top: calc(50% - 90px);
+    left: calc(50% - 2px);
+    width: 2.5px;
+    height: 90px;
+    transform-origin: bottom;
+    background-color: #FFFFFF;
+  }
+
+  .second {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 95px);
+    left: calc(50% - 1.5px);
+    width: 0.5px;
+    height: 95px;
+    transform-origin: bottom;
+    background-color: #FFFFFF;
+  }
+
+  #clock_date {
+    font-family: "Pretendard", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    margin-top: 38px;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: -0.42px;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+
+  #clock_time {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+
+  .video {
+    width: 1236px;
+    height: 695px;
+  }
+
+  .video img {
+    object-fit: cover;
+  }
+
+  .weather_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 82px;
+  }
+
+  .today {
+    font-family: "Pretendard", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 1.87px;
+    text-transform: uppercase;
+    color: #ADB5BD;
+  }
+
+  .weather_description {
+    font-family: "Pretendard", sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    margin-top: 47px;
+    margin-bottom: 80px;
+    text-align: center;
+    letter-spacing: -0.62px;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+
+  .weather_img {
+    width: 124px;
+    height: 100px;
+    margin-bottom: 52.5px;
+  }
+
+  .weather {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .weather_caption {
+    font-family: "Pretendard", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
 }
