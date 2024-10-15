@@ -7,8 +7,25 @@
   background-size: cover;
 }
 
+.swiper-container {
+  margin-top: 150px;
+  padding-left: 400px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 181px;
+}
+
+.swiper-wrapper {
+  gap: 100px !important;
+}
+
 #early2021 {
   position: relative;
+  top: 0;
+  left: 0;
   overflow: hidden;
   width: 100%;
   min-width: 100%;
@@ -59,41 +76,41 @@
 }
 
 #early2021 .top .c1_s img:nth-child(1) {
-  animation-duration: 1.6s;
+  animation-duration: 3.6s;
 }
 
 #early2021 .top .c1_s img:nth-child(2) {
-  animation-duration: 1.4s;
-  animation-delay: -1.5s;
+  animation-duration: 3.4s;
+  animation-delay: -2.5s;
 }
 
 #early2021 .top .c1_s img:nth-child(3) {
-  animation-duration: 1.2s;
+  animation-duration: 3.2s;
   animation-delay: -0.7s;
 }
 
 #early2021 .top .c1_s img:nth-child(4) {
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-delay: -1s;
 }
 
 #early2021 .top .c1_s img:nth-child(5) {
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-delay: 0.2s;
 }
 
 #early2021 .top .c1_s img:nth-child(6) {
-  animation-duration: 1.8s;
+  animation-duration: 3.8s;
   animation-delay: -2s;
 }
 
 #early2021 .top .c1_s img:nth-child(7) {
-  animation-duration: 1.2s;
+  animation-duration: 3.2s;
   animation-delay: -0.5s;
 }
 
 #early2021 .top .c1_s img:nth-child(8) {
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-delay: -1.2s;
 }
 
@@ -124,19 +141,13 @@
 }
 
 .light {
-  position: absolute;
   z-index: 20;
-  top: 387px;
-  left: 496px;
   width: 940px;
   height: 1330px;
 }
 
 .right {
-  position: absolute;
-  z-index: 20;
-  top: 440px;
-  left: 1631px;
+
   border-radius: 24px;
 }
 
@@ -199,16 +210,16 @@
   position: absolute;
   top: 200px;
   right: 1400px;
-  width: 142px;
-  height: 142px;
+  width: 122px;
+  height: 122px;
 }
 
 .star_3 {
   position: absolute;
   top: 800px;
   left: 150px;
-  width: 142px;
-  height: 142px;
+  width: 110px;
+  height: 110px;
 }
 
 .star_4 {
@@ -223,8 +234,8 @@
   position: absolute;
   top: 751px;
   right: 682px;
-  width: 142px;
-  height: 142px;
+  width: 112px;
+  height: 112px;
 }
 
 @media (width: 1920px) {

@@ -7,7 +7,9 @@
 		<link href="../../../../../resources/ict/css/reset.css" rel="stylesheet" type="text/css" />
 		<link href="../../../../../resources/ict/css/type_c/common.css" rel="stylesheet" type="text/css" />
 		<link href="../../../../../resources/ict/css/type_c/event.css" rel="stylesheet" type="text/css" />
+		<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
 		<script src="../../../../../resources/ict/plugin/jquery-3.7.1.min.js" type="text/javascript"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		<script src="../../../../../resources/ict/js/type_c/event.js" type="text/javascript"></script>
 		<script src="../../../../../resources/ict/js/type_c/date_and_time.js" type="text/javascript"></script>
 		<title>행사안내</title>
@@ -28,20 +30,55 @@
 					<div id="months"></div>
 				</div>
 			</div>
-			<div class="content">
-				<div class="today">TODAY'S EVENT</div>
-				<div class="event-title">
-					박준 시인 특강 : 읽는다고<br />
-					달라지는 일은 없겠지만
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="content">
+							<div class="today">TODAY'S EVENT</div>
+							<div class="event-title">
+								박준 시인 특강 : 읽는다고
+								<br />
+								달라지는 일은 없겠지만
+							</div>
+							<div class="box">
+								<div class="event-time"><span>시간</span>14:00 ~ 16:00</div>
+								<div class="event-time"><span>장소</span>2층 평생학습실(배움1실)</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content">
+							<div class="today">TODAY'S EVENT</div>
+							<div class="event-title">
+								이기주 작가 강연: 말의 품격에 대한
+								<br />
+								깊이 있는 성찰
+							</div>
+							<div class="box">
+								<div class="event-time"><span>시간</span>13:00 ~ 15:00</div>
+								<div class="event-time"><span>장소</span>1층 평생학습실(배움1실)</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content">
+							<div class="today">TODAY'S EVENT</div>
+							<div class="event-title">
+								김영하 작가와의 만남: 김영하 작가의
+								<br />
+								글쓰기 비법과 창작 이야기
+							</div>
+							<div class="box">
+								<div class="event-time"><span>시간</span>16:00 ~ 17:00</div>
+								<div class="event-time"><span>장소</span>3층 평생학습실(배움1실)</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="box">
-					<div class="event-time"><span>시간</span>14:00 ~ 16:00</div>
-					<div class="event-time"><span>장소</span>2층 평생학습실(배움1실)</div>
-				</div>
+				<div class="swiper-pagination"></div>
 			</div>
 			<img alt="" class="moon" src="../../../../../resources/ict/img/type_c/event/moon.png" />
 			<img alt="" class="user" src="../../../../../resources/ict/img/type_c/event/user.png" />
 		</div>
-		<div class="constelacao"></div>
 	</body>
 </html>

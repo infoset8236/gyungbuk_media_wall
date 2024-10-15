@@ -19,6 +19,19 @@
   flex-direction: column;
 }
 
+.lib_name {
+  font-family: "Pretendard", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 100%;
+  margin-bottom: 155px;
+  text-align: center;
+  letter-spacing: 6.12px;
+  text-transform: uppercase;
+  color: #ADB5BD;
+}
+
 .clock {
   position: relative;
   width: 480px;
@@ -131,8 +144,8 @@
 }
 
 .weather_img {
-  width: 248.001px;
-  height: 200px;
+  width: 340px;
+  height: 340px;
   margin-bottom: 105px;
 }
 

@@ -3,7 +3,7 @@
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	background: url('../../img/type_b/book_loan_return_date/bg_loan.png') center center no-repeat;
+	background: url('../../img/type_c/book_loan_return_date/background.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -131,9 +131,65 @@
 	color: #FFFFFF;
 }
 
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 80px 160px 60px 160px;
+}
+
+.header-title {
+	font-family: "Pretendard", sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: normal;
+	color: #FFFFFF;
+}
+
+.header-caption {
+	font-family: "Pretendard", sans-serif;
+	font-size: 28px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: normal;
+	margin-top: 16px;
+	letter-spacing: 2.8px;
+	color: #8B95A1;
+}
+
 @media (width: 1920px) {
 	.black {
 		color: #191f28 !important;
+	}
+
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding: 40px 80px 30px 80px;
+	}
+
+	.header-title {
+		font-family: "Pretendard", sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: normal;
+		color: #FFFFFF;
+	}
+
+	.header-caption {
+		font-family: "Pretendard", sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+		font-style: normal;
+		line-height: normal;
+		margin-top: 8px;
+		letter-spacing: 1.4px;
+		color: #8B95A1;
 	}
 
 	.content {
