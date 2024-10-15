@@ -3,7 +3,7 @@
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
-	background: url('../../img/type_b/book_loan_return_date/bg_loan.png') center center no-repeat;
+	background: url('../../img/type_c/book_loan_return_date/background.png') center center no-repeat;
 	background-size: cover;
 }
 
