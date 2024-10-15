@@ -1,345 +1,258 @@
-#b_loan .loan_wrap_01 .clock-container {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	gap: 120px;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-}
-
-#b_loan .loan_wrap_01 {
-	position: absolute;
-	left: 500px;
-	top: 360px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	gap: 200px;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
-
-#b_loan .loan_wrap_02 {
-	position: absolute;
-	left: 500px;
-	top: 1065px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	gap: 200px;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
-
-#b_loan .loan_wrap_02 .clock-container {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	gap: 120px;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-}
-
-#b_loan .flip-clock-wrapper ul li a div.up:after {
-	top: 250px;
-}
-
-#b_loan .flip-clock-wrapper ul li a div div.inn {
-	font-size: 360px;
-	background: url(../../img/type_b/book_loan_return_date/img_line.png) no-repeat;
-	background-size: 100%;
-	/* background-position: bottom; */
-	border-radius: 24px;
-	color: #fff;
-	font-family: 'FjallaOne-Regular', sans-serif;
-}
-
-#b_loan .clock-container {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-	/* width: 100%; */
-	/* gap: 30px; */
-}
-
-#b_loan .clock {
-	text-align: center;
-	width: 660px;
+.container {
 	position: relative;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	gap: 10px;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
+	height: 100vh;
+	background: url('../../img/type_b/book_loan_return_date/bg_loan.png') center center no-repeat;
+	background-size: cover;
 }
 
-#b_loan .label {
-	color: #191f28;
-	text-align: left;
-	font-family: 'Pretendard-Medium', sans-serif;
-	font-size: 50px;
-	margin: 0 1em;
+.black {
+	color: #191f28 !important;
 }
 
-#b_loan .weekday-display {
-	color: white;
-	font-size: 400px;
-	margin-top: 10px;
-	line-height: 400px;
-}
-
-#loan-weekday ul:nth-child(1),
-#return-weekday ul:nth-child(1) {
-	display: none;
-}
-
-#b_loan .flip-clock-wrapper ul {
-	width: 320px;
-	height: 500px;
-	font-size: 400px;
-	margin: 0 auto;
-	padding: 0;
-	-webkit-box-shadow: unset;
-	box-shadow: unset;
-	border-radius: 24px;
-	overflow: hidden;
-	background: none;
-}
-
-#b_loan .flip-clock-wrapper ul li {
-	line-height: 580px;
-	font-size: 400px;
-	height: 500px;
-	overflow: hidden;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	/* 뒤집힌 면을 숨김 */
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	/* 3D 변환 유지 */
-	display: -webkit-box;
-	display: -ms-flexbox;
+.content {
 	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 94px;
+	gap: 110px;
 }
 
-.flip-clock-wrapper ul li.before {
-	-webkit-transform: rotateX(0deg);
-	transform: rotateX(0deg);
-}
-
-.flip-clock-wrapper ul li.active {
-	-webkit-transform: rotateX(-180deg);
-	transform: rotateX(-180deg);
-	/* 부드럽게 회전 */
-	-webkit-transition: -webkit-transform 0.8s ease-in-out;
-	transition: -webkit-transform 0.8s ease-in-out;
-	transition: transform 0.8s ease-in-out;
-	transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
-	/* 자연스러운 전환 */
-}
-
-/* 폰트 왜곡 방지 */
-.flip-clock-wrapper ul li a {
-	height: 100%;
-	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
+.wrapper {
 	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	/* 스케일 고정 */
-	-webkit-transition: -webkit-transform 0.1s;
-	transition: -webkit-transform 0.1s;
-	transition: transform 0.1s;
-	transition: transform 0.1s, -webkit-transform 0.1s;
-	/* 스케일 왜곡 방지 */
+	gap: 120px;
 }
 
-#b_loan .flip-clock-divider {
-	height: 500px;
-}
-
-#b_loan .flip-clock-dot {
-	width: 10px;
-	height: 10px;
-	margin: 5px;
-}
-
-#loan-weekday ul:nth-child(2),
-#return-weekday ul:nth-child(2) {
-	width: 400px !important;
-}
-
-#loan-weekday ul:nth-child(2) li .inn,
-#return-weekday ul:nth-child(2) li .inn {
-	width: 400px !important;
-	background: url(../../img/type_b/book_loan_return_date/img_line_02.png) no-repeat !important;
-	background-size: 100%;
-	font-family: 'SeoulNamsanM' !important;
-}
-
-.loan_label {
-	width: 320px;
-	/* position: relative; */
-	/* left: 510px; */
+.label_wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 80px;
 	text-align: center;
+	gap: 40px;
 }
 
-.loan_label p {
-	color: #191f28;
-	font-family: 'Pretendard-Bold', sans-serif;
+.label {
+	font-family: "Pretendard", sans-serif;
 	font-size: 120px;
-	line-height: 100%;
-	letter-spacing: -0.02em;
 	font-weight: 700;
-}
-
-.loan_label span {
-	color: #8b95a1;
-	font-family: 'Pretendard-SemiBold', sans-serif;
-	font-size: 32px;
-	letter-spacing: 0.1em;
-	font-weight: 600;
+	font-style: normal;
+	line-height: 100%;
+	letter-spacing: -2.4px;
 	text-transform: uppercase;
-	display: block;
-	margin-top: 40px;
+	color: #191F28;
 }
 
-@media (max-width: 1920px) {
-	#b_loan .loan_wrap_01 .clock-container {
+.caption {
+	font-family: "Pretendard", sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 3.2px;
+	text-transform: uppercase;
+	color: #8B95A1;
+}
+
+.flip_wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+}
+
+.flip_label {
+	font-family: "Pretendard", sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 100%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #191F28;
+}
+
+.number_wrapper {
+	display: flex;
+	gap: 20px;
+}
+
+.flip {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 400px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 320px;
+	height: 500px;
+	padding: 55px 75px;
+	text-align: center;
+	letter-spacing: 8px;
+	text-transform: lowercase;
+	color: #FFFFFF;
+	border-radius: 24px;
+	background: url('../../img/type_c/book_loan_return_date/days.png') center center no-repeat;
+	background-size: cover;
+}
+
+.divider {
+	position: absolute;
+	top: 247px;
+	left: 5px;
+	width: 310px;
+	height: 5px;
+	background-color: #000000;
+}
+
+.divider_day {
+	position: absolute;
+	top: 247px;
+	left: 5px;
+	width: 407px;
+	height: 5px;
+	background-color: #000000;
+}
+
+.week {
+	font-family: "SeoulNamsan CEB", sans-serif !important;
+	font-size: 360px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 100%;
+	width: 420px !important;
+	text-align: center;
+	text-transform: lowercase;
+	color: #FFFFFF;
+}
+
+@media (width: 1920px) {
+	.black {
+		color: #191f28 !important;
+	}
+
+	.content {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 47px;
+		gap: 55px;
+	}
+
+	.wrapper {
+		display: flex;
+		align-items: center;
 		gap: 60px;
 	}
 
-	#b_loan .loan_wrap_01 {
-		left: 250px;
-		top: 180px;
-		gap: 100px;
+	.label_wrapper {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		margin-right: 40px;
+		text-align: center;
+		gap: 20px;
 	}
 
-	#b_loan .loan_wrap_02 {
-		left: 250px;
-		top: 532px;
-		gap: 100px;
+	.label {
+		font-family: "Pretendard", sans-serif;
+		font-size: 60px;
+		font-weight: 700;
+		font-style: normal;
+		line-height: 100%;
+		letter-spacing: -1.2px;
+		text-transform: uppercase;
+		color: #191F28;
 	}
 
-	#b_loan .loan_wrap_02 .clock-container {
-		gap: 60px;
+	.caption {
+		font-family: "Pretendard", sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: 1.6px;
+		text-transform: uppercase;
+		color: #8B95A1;
 	}
 
-	#b_loan .flip-clock-wrapper ul li a div.up:after {
-		top: 125px;
+	.flip_wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 22.5px;
 	}
 
-	#b_loan .flip-clock-wrapper ul li a div div.inn {
-		font-size: 180px;
-		border-radius: 12px;
-		background-size: cover !important;
-	}
-
-	#b_loan .clock {
-		width: 330px;
-		gap: 5px;
-	}
-
-	#b_loan .label {
+	.flip_label {
+		font-family: "Pretendard", sans-serif;
 		font-size: 25px;
+		font-weight: 500;
+		font-style: normal;
+		line-height: 100%;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		color: #191F28;
 	}
 
-	#b_loan .weekday-display {
+	.number_wrapper {
+		display: flex;
+		gap: 10px;
+	}
+
+	.flip {
+		font-family: "Fjalla One", sans-serif;
 		font-size: 200px;
-		margin-top: 5px;
-		line-height: 200px;
-	}
-
-	#b_loan .flip-clock-wrapper ul {
+		font-weight: 400;
+		font-style: normal;
+		line-height: 100%;
+		position: relative;
+		display: flex;
+		justify-content: center;
 		width: 160px;
 		height: 250px;
-		font-size: 200px;
+		padding: 27.5px 37.5px;
+		text-align: center;
+		letter-spacing: 4px;
+		text-transform: lowercase;
+		color: #FFFFFF;
 		border-radius: 12px;
-	}
-
-	#b_loan .flip-clock-wrapper ul li {
-		line-height: 290px;
-		font-size: 200px;
-		height: 250px;
-	}
-
-	#b_loan .flip-clock-divider {
-		height: 250px;
-	}
-
-	#b_loan .flip-clock-dot {
-		width: 5px;
-		height: 5px;
-		margin: 2px;
-	}
-
-	#loan-weekday ul:nth-child(2),
-	#return-weekday ul:nth-child(2) {
-		width: 200px !important;
-		border-radius: 12px;
-	}
-
-	#loan-weekday ul:nth-child(2) li .inn,
-	#return-weekday ul:nth-child(2) li .inn {
-		width: 200px !important;
-		border-radius: 12px;
+		background: url('../../img/type_c/book_loan_return_date/days.png') center center no-repeat;
 		background-size: cover;
 	}
 
-	.loan_label {
-		width: 160px;
+	.divider {
+		position: absolute;
+		top: 123.5px;
+		left: 2.5px;
+		width: 155px;
+		height: 2.5px;
+		background-color: #000000;
 	}
 
-	.loan_label p {
-		font-size: 60px;
+	.divider_day {
+		position: absolute;
+		top: 123.5px;
+		left: 2.5px;
+		width: 203.5px;
+		height: 2.5px;
+		background-color: #000000;
 	}
 
-	.loan_label span {
-		font-size: 16px;
-		margin-top: 20px;
+	.week {
+		font-family: "SeoulNamsan CEB", sans-serif !important;
+		font-size: 180px;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 100%;
+		width: 210px !important;
+		text-align: center;
+		text-transform: lowercase;
+		color: #FFFFFF;
 	}
 }
