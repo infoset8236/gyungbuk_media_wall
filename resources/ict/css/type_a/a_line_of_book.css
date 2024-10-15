@@ -1,38 +1,36 @@
 .bookline-wrap .li_book_tit_wrap {
+	position: absolute;
+	top: calc(50% - 136px);
+	left: calc(50% - 1600px);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
+	align-items: center;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	justify-content: center;
+	width: 3200px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
 	gap: 60px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center;
-	width: 3200px;
-	position: absolute;
-	left: calc(50% - 1600px);
-	top: calc(50% - 136px);
 }
 .bookline-wrap .li_book_tit {
-	color: #ffffff;
-	text-align: center;
 	font-family: 'SeoulHangangCm-Regular', sans-serif;
 	font-size: 100px;
-	line-height: 150%;
-	letter-spacing: -0.02em;
 	font-weight: 400;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #ffffff;
 }
 .bookline-wrap .li_book_tit span {
-	font-family: 'SeoulHangangCm-Regular';
+	font-family: 'SeoulHangangCm-Regular', sans-serif;
 }
 .bookline-wrap .li_book_tit_02 {
-	color: #adb5bd;
-	text-align: left;
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 40px;
 	font-weight: 500;
@@ -40,31 +38,33 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: left;
+	color: #adb5bd;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center;
 	-webkit-box-pack: start;
 	-ms-flex-pack: start;
-	justify-content: flex-start;
 }
 .bookline-wrap .li_book_tit_03 {
-	color: #eff1f3;
-	text-align: center;
 	font-family: 'Pretendard-Medium', sans-serif;
 	font-size: 60px;
 	font-weight: 500;
 	position: absolute;
-	left: calc(50% - 176px);
 	top: 750px;
+	left: calc(50% - 176px);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #eff1f3;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center;
 }
 @keyframes fadeInUp {
 	from {
@@ -155,10 +155,10 @@
 
 @media (max-width: 1920px) {
 	.bookline-wrap .li_book_tit_wrap {
-		gap: 30px;
-		width: 1600px;
-		left: calc(50% - 800px);
 		top: calc(50% - 68px);
+		left: calc(50% - 800px);
+		width: 1600px;
+		gap: 30px;
 	}
 	.bookline-wrap .li_book_tit {
 		font-size: 50px;
@@ -169,8 +169,8 @@
 	}
 	.bookline-wrap .li_book_tit_03 {
 		font-size: 30px;
-		left: calc(50% - 88px);
 		top: 375px;
+		left: calc(50% - 88px);
 	}
 	/* leaf animations */
 	/*#leaves { position:relative; top:-100px; width:100%; text-align: right; } 

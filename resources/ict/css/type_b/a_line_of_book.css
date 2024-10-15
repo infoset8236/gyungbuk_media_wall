@@ -1,40 +1,38 @@
 .bookline-wrap .li_book_tit_wrap {
+	position: absolute;
+	top: 740px;
+	left: 50%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
+	align-items: center;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
 	width: 2000px;
-	position: absolute;
-	left: 50%;
 	transform: translate(-50%);
-	top: 740px;
 	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 }
 .bookline-wrap .li_book_tit {
-	color: #191f28;
-	text-align: center;
 	font-family: 'NanumMyeongjo', sans-serif;
 	font-size: 100px;
-	line-height: 150%;
-	letter-spacing: -0.02em;
 	font-weight: 400;
+	line-height: 150%;
 	margin: 150px 0 100px 0 !important;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #191f28;
 }
 .bookline-wrap .li_book_tit span {
 	font-family: 'NanumMyeongjo';
 }
 .bookline-wrap .li_book_tit_02 {
-	color: #6b7684;
-	text-align: left;
 	font-family: 'Pretendard-Medium', sans-serif;
 	font-size: 48px;
 	font-weight: 500;
@@ -42,11 +40,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	text-align: left;
+	color: #6b7684;
 }
 
 .line_tit {
-	color: #8b95a1;
-	text-align: center;
 	font-family: 'Pretendard-Medium', sans-serif;
 	font-size: 60px;
 	font-weight: 500;
@@ -54,6 +52,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
+	color: #8b95a1;
 }
 
 @keyframes fadeInUp {
@@ -69,8 +69,8 @@
 
 @media (max-width: 1920px) {
 	.bookline-wrap .li_book_tit_wrap {
-		width: 1000px;
 		top: 370px;
+		width: 1000px;
 	}
 	.bookline-wrap .li_book_tit {
 		font-size: 50px;

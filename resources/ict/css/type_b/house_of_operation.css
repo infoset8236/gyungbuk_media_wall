@@ -1,75 +1,75 @@
 .notice_oper {
+	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
 	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .info-wrap .oper_tit {
-	color: #191f28;
-	text-align: center;
 	font-family: 'Pretendard-Bold', sans-serif;
 	font-size: 120px;
-	line-height: 120%;
-	letter-spacing: -0.02em;
 	font-weight: 700;
+	line-height: 120%;
+	text-align: center;
+	letter-spacing: -0.02em;
 	text-transform: uppercase;
+	color: #191f28;
 }
 
 .table {
+	width: 3320px;
+	margin-top: 120px;
 	border-collapse: collapse;
 	text-align: center;
 	border-top: 0;
-	width: 3320px;
 	border-radius: 40px;
-	margin-top: 120px;
 	box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
 }
 
 .table th {
-	background: #ac9a89;
-	width: 100%;
-	color: #fff;
-	text-align: center;
 	font-family: 'Pretendard-Regular', sans-serif;
 	font-size: 66px;
-	line-height: 140%;
-	letter-spacing: -0.02em;
 	font-weight: 400;
+	line-height: 140%;
+	overflow: hidden;
+	width: 100%;
+	height: 180px;
+	text-align: center;
+	white-space: nowrap;
+	letter-spacing: -0.02em;
 	text-transform: uppercase;
 	text-overflow: ellipsis;
-	overflow: hidden;
-	white-space: nowrap;
+	color: #fff;
 	/* padding: 40px; */
 	/* border: 1px solid #ac9a89; */
-	height: 180px;
+	background: #ac9a89;
 }
 
 .table td {
-	color: #191f28;
-	text-align: center;
 	font-family: 'Pretendard-Medium', sans-serif;
 	font-size: 72px;
-	line-height: 140%;
-	letter-spacing: -0.02em;
 	font-weight: 500;
+	line-height: 140%;
+	overflow: hidden;
+	height: 210px;
+	text-align: center;
+	white-space: nowrap;
+	letter-spacing: -0.02em;
 	text-transform: uppercase;
 	text-overflow: ellipsis;
-	overflow: hidden;
-	white-space: nowrap;
 	/* padding: 70px; */
-	background: #fff;
+	color: #191f28;
 	border: 1px solid #c8cdd2;
-	border-left: 0;
 	border-bottom: 0;
-	height: 210px;
+	border-left: 0;
+	background: #fff;
 }
 
 .table .left-top {
-	border-radius: 40px 0 0 0;
 	width: 970px;
-	border-right: 1px solid #ac9a89;
 	border-spacing: 0;
+	border-right: 1px solid #ac9a89;
+	border-radius: 40px 0 0 0;
 }
 
 .table .middle {
@@ -78,17 +78,17 @@
 	border-left: 1px solid #ac9a89;
 }
 .table .right-top {
-	border-radius: 0 40px 0 0;
 	width: 1170px;
+	border-radius: 0 40px 0 0;
 }
 
 .table .under {
 	border-radius: 0 0 0 40px;
 }
 .table .under_02 {
-	border-radius: 0 0 40px 0;
-	/* border-bottom: 0 solid transparent; */
 	border-right: 0px solid transparent;
+	/* border-bottom: 0 solid transparent; */
+	border-radius: 0 0 40px 0;
 }
 @media (width: 1920px) {
 	.info-wrap .oper_tit {
@@ -97,8 +97,8 @@
 
 	.table {
 		width: 1660px;
-		border-radius: 20px;
 		margin-top: 60px;
+		border-radius: 20px;
 		box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.25);
 	}
 
@@ -113,16 +113,16 @@
 	}
 
 	.table .left-top {
-		border-radius: 20px 0 0 0;
 		width: 485px;
+		border-radius: 20px 0 0 0;
 	}
 
 	.table .middle {
 		width: 585px;
 	}
 	.table .right-top {
-		border-radius: 0 20px 0 0;
 		width: 585px;
+		border-radius: 0 20px 0 0;
 	}
 
 	.table .under {
