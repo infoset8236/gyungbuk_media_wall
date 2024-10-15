@@ -57,10 +57,12 @@
   font-weight: 500;
   font-style: normal;
   line-height: normal;
+  display: flex;
   overflow: hidden;
+  align-items: center;
   height: 128px;
   padding: 40px 70px;
-  animation: tickerAnimation 10s linear infinite;
+  animation: tickerAnimation 30s linear infinite;
   white-space: nowrap;
   color: #FFFFFF;
   background: #000;
