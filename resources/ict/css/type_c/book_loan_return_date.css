@@ -12,9 +12,81 @@
 }
 
 .content {
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 94px;
+  gap: 110px;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.label_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 80px;
+  text-align: center;
+  gap: 40px;
+}
+
+.label {
+  font-family: "Pretendard", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -2.4px;
+  text-transform: uppercase;
+  color: #191F28;
+}
+
+.caption {
+  font-family: "Pretendard", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  color: #8B95A1;
+}
+
+.flip_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.flip_label {
+  font-family: "Pretendard", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #191F28;
+}
+
+.number_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.flip {
+  width: 320px;
+  height: 500px;
+  padding: 55px 75px;
+  border-radius: 24px;
+  background-color: #191F28;
+}
 
 @media (width: 1920px) {
 
