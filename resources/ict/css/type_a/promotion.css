@@ -3,6 +3,10 @@
 	margin: 0;
 	padding: 390px 0 0 0;
 }
+
+.infopromotion-wrap .ict_tit {
+	color: #8b95a1;
+}
 .infopromotion-wrap .outer {
 	display: table;
 	width: 100%;

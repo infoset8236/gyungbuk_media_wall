@@ -8,6 +8,7 @@
 		<link href="../../../../../resources/ict/css/font.css" rel="stylesheet" type="text/css" />
 		<link href="../../../../../resources/ict/css/type_b/common.css" rel="stylesheet" type="text/css" />
 		<link href="../../../../../resources/ict/css/type_b/a_line_of_book.css" rel="stylesheet" type="text/css" />
+		<script src="../../../../../resources/ict/js/type_a/a_line_of_book.js" type="text/javascript"></script>
 		<script src="../../../../../resources/ict/js/type_a/wisesaying.js" type="text/javascript"></script>
 		<script src="../../../../../resources/ict/plugin/jquery-3.7.1.min.js" type="text/javascript"></script>
 		<title>책속한줄</title>
@@ -42,11 +43,9 @@
 			var randomNum = Math.floor(Math.random() * 11);
 
 			$('#wiseSayingComentary').css({ opacity: '0', marginTop: '30px' });
-			$('#wiseSayingTxt').css({ opacity: '0' });
 			$('#wiseSayingTxt').html(wiseSayingTxt[randomNum]);
 			$('#wiseSayingComentary').html(wiseSayingComentary[randomNum]);
 			$('#wiseSayingComentary').animate({ opacity: '1', marginTop: '0' }, 4000);
-			$('#wiseSayingTxt').animate({ opacity: '1', marginTop: '0' }, 6000);
 
 			animate();
 		}

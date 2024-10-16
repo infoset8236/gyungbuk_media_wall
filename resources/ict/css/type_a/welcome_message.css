@@ -212,7 +212,7 @@
 	font-size: 60px;
 	font-weight: 400;
 	position: absolute;
-	top: calc(50% - -255.11px);
+	top: calc(50% - -255px);
 	left: calc(50% - 498px);
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -247,6 +247,17 @@
 }
 
 @media (max-width: 1920px) {
+	.ticker {
+		width: 100%;
+		max-width: 1920px;
+		max-height: 64px;
+		padding: 20px 35px 20px 35px;
+	}
+	.div2 {
+		font-size: 22px;
+		font-weight: 500;
+	}
+
 	.welcome_wrap .top-sec {
 		top: calc(50% - 369px);
 		left: calc(50% - 420px);
