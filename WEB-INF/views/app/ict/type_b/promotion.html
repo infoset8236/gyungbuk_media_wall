@@ -19,13 +19,13 @@
 				<div class="header_frame">
 					<div class="header_group">
 						<div class="ict_tit_01">홍보동영상</div>
-						<div class="ict_tit">PROMOTIONAL VIDEO</div>
+						<div class="ict_tit">PROMOTIN</div>
 					</div>
 				</div>
 			</div>
 			<div class="contents">
 				<div class="left-sec">
-					<div class="text small-txt">SEOROIEUN</div>
+					<div class="text small-txt">INFOSET</div>
 					<div class="">
 						<div class="clock">
 							<div class="circle" id="sc" style="--clr: #191f28"><i></i></div>
@@ -42,49 +42,43 @@
 						<div class="time-txt" id="time">
 							<div id="hours" style="--clr: #191f28">00</div>
 							<div id="minutes" style="--clr: #191f28">00</div>
-							<div id="seconds" style="--clr: #191f28">00</div>
 						</div>
 
 						<script>
 							let hr = document.querySelector('#hr');
 							let mn = document.querySelector('#mn');
-							let sc = document.querySelector('#sc');
 
 							setInterval(() => {
 								var day = new Date();
 
 								let hh = day.getHours() * 30;
 								let mm = day.getMinutes() * 6;
-								let ss = day.getSeconds() * 6;
-								let hr = hh + mm / 12;
-								$('#hr').css('transform', 'rotateZ(' + hr + 'deg)');
-								$('#mn').css('transform', 'rotateZ(' + mm + 'deg)');
-								$('#sc').css('transform', 'rotateZ(' + ss + 'deg)');
+								let hrRotation = hh + mm / 12;
 
+								// 시, 분 바늘 회전 업데이트
+								$('#hr').css('transform', 'rotateZ(' + hrRotation + 'deg)');
+								$('#mn').css('transform', 'rotateZ(' + mm + 'deg)');
+
+								// 시간과 분 표시할 요소 선택
 								let hours = document.getElementById('hours');
 								let minutes = document.getElementById('minutes');
-								let seconds = document.getElementById('seconds');
-								//let ampm = document.getElementById('ampm');
 
 								let h = day.getHours();
 								let m = day.getMinutes();
-								let s = day.getSeconds();
-								//let am = h >= 12 ? "PM" : "AM";
 
-								//convert 24hr clock to 12hr clock
+								// 24시간제를 12시간제로 변환 (필요한 경우 주석 해제)
 								if (h > 12) {
-									//h = h - 12;
+									// h = h - 12;
 								}
-								//add zero before single digital number
+
+								// 한 자리 숫자 앞에 0 추가
 								h = h < 10 ? '0' + h : h;
 								m = m < 10 ? '0' + m : m;
-								s = s < 10 ? '0' + s : s;
 
+								// 각각 시간과 분만 업데이트 (':' 없이 따로 표시)
 								hours.innerHTML = h;
 								minutes.innerHTML = m;
-								seconds.innerHTML = s;
-								//ampm.innerHTML = am;
-							});
+							}, 1000); // 1초마다 업데이트
 						</script>
 					</div>
 				</div>

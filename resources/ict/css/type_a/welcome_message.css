@@ -213,7 +213,7 @@
 	font-weight: 400;
 	position: absolute;
 	top: calc(50% - -255px);
-	left: calc(50% - 498px);
+	left: 50%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -225,6 +225,7 @@
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	-webkit-box-pack: center;
+	transform: translateX(-50%);
 	-ms-flex-pack: center;
 }
 @keyframes fadein {
@@ -283,7 +284,6 @@
 	.lib_tit {
 		font-size: 30px;
 		top: calc(50% - -128px);
-		left: calc(50% - 249px);
 	}
 	.rectangle-dim {
 		width: 1920px;

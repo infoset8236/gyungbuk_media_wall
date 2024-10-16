@@ -10,7 +10,7 @@
 }
 .infopromotion-wrap .inner {
 	display: table-cell;
-	width: 2560px;
+	width: 2472px;
 	margin: 0 auto;
 	vertical-align: middle;
 	vertical-align: top;
@@ -19,13 +19,14 @@
 	position: absolute;
 	top: 620px;
 	left: 0;
-	width: 650px;
+	width: 684px;
+	height: 884px;
 }
 .infopromotion-wrap .left-sec .text.small-txt {
 	font-size: 35px;
 	font-weight: 500;
 	text-align: center;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.14em;
 	text-transform: uppercase;
 	color: #8f725e;
 }
@@ -38,7 +39,7 @@
 	justify-content: center;
 	width: 490px;
 	height: 490px;
-	margin: 69px auto 0;
+	margin: 160px auto 0;
 	background: url('../../img/type_b/promotion/analogclock_bg.png') no-repeat center center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
@@ -124,12 +125,13 @@
 	content: '';
 	border-radius: 50%;
 	background: var(--clr);
-	-webkit-box-shadow:
+	/* -webkit-box-shadow:
 		0 0 20px var(--clr),
-		0 0 60px var(--clr);
-	box-shadow:
+		0 0 60px var(--clr); */
+	/* box-shadow:
 		0 0 20px var(--clr),
-		0 0 60px var(--clr);
+		0 0 60px var(--clr); */
+	display: none;
 }
 .infopromotion-wrap .left-sec .clock .circle2::before {
 	position: absolute;
@@ -138,17 +140,18 @@
 	height: 10px;
 	content: '';
 	border-radius: 50%;
-	background: var(--clr);
-	-webkit-box-shadow:
+	/* background: var(--clr); */
+	/* -webkit-box-shadow:
 		0 0 20px var(--clr),
-		0 0 60px var(--clr);
-	box-shadow:
+		0 0 60px var(--clr); */
+	/* box-shadow:
 		0 0 20px var(--clr),
-		0 0 60px var(--clr);
+		0 0 60px var(--clr); */
+	display: none;
 }
 .infopromotion-wrap .left-sec .date-txt {
 	font-size: 32px;
-	margin-top: 69px;
+	margin-top: 70px;
 	text-align: center;
 	color: #191f28;
 }
@@ -175,8 +178,7 @@
 	text-align: center;
 	color: var(--clr);
 }
-.infopromotion-wrap .left-sec .time-txt div:nth-child(1)::after,
-.infopromotion-wrap .left-sec .time-txt div:nth-child(2)::after {
+.infopromotion-wrap .left-sec .time-txt div:nth-child(1)::after {
 	position: absolute;
 	top: -8px;
 	right: -10px;
@@ -208,16 +210,17 @@
 	position: absolute;
 	top: 620px;
 	right: 0;
-	width: 650px;
+	width: 684px;
+	height: 884px;
 	color: #191f28;
 }
 .infopromotion-wrap .right-sec h2 {
-	font-size: 36px;
+	font-size: 34px;
 	font-weight: 100;
 	font-weight: 500;
 	display: block;
 	padding-bottom: 60px;
-	letter-spacing: 0.18em;
+	letter-spacing: 0.14em;
 	color: #8f725e;
 }
 .infopromotion-wrap .right-sec .weather-box {
@@ -239,7 +242,7 @@
 	box-sizing: border-box;
 	width: 340px;
 	height: 340px;
-	margin: 0 auto;
+	margin: 0 auto 70px;
 	text-align: center;
 }
 .infopromotion-wrap .right-sec .weather-box div.temp span.temp {
@@ -316,10 +319,10 @@
 }
 .infopromotion-wrap .center-sec .movie-box img,
 .infopromotion-wrap .center-sec .movie-box video {
-	width: 2560px;
+	width: 2472px;
 	margin: 0 auto;
 	vertical-align: top;
-	box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
+	/* box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25); */
 }
 
 @media (max-width: 1920px) {
@@ -328,16 +331,17 @@
 	}
 	.infopromotion-wrap .left-sec {
 		top: 310px;
-		width: 325px;
+		width: 342px;
+		height: 442px;
 	}
 	.infopromotion-wrap .left-sec .text.small-txt {
-		font-size: 18px;
-		letter-spacing: 0.05em;
+		font-size: 17px;
+		letter-spacing: 0.14em;
 	}
 	.infopromotion-wrap .left-sec .clock {
 		width: 245px;
 		height: 245px;
-		margin: 35px auto 0;
+		margin: 80px auto 0;
 		background-size: cover;
 	}
 	.infopromotion-wrap .left-sec .clock::before {
@@ -366,16 +370,6 @@
 		width: 230px;
 		height: 230px;
 	}
-	.infopromotion-wrap .left-sec .clock .circle::before {
-		top: -4.5px;
-		width: 5px;
-		height: 5px;
-	}
-	.infopromotion-wrap .left-sec .clock .circle2::before {
-		top: 22.5px;
-		width: 5px;
-		height: 5px;
-	}
 	.infopromotion-wrap .left-sec .date-txt {
 		font-size: 16px;
 		margin-top: 35px;
@@ -394,12 +388,12 @@
 	}
 	.infopromotion-wrap .right-sec {
 		top: 310px;
-		width: 325px;
+		width: 342px;
+		height: 442px;
 	}
 	.infopromotion-wrap .right-sec h2 {
-		font-size: 18px;
+		font-size: 17px;
 		padding-bottom: 30px;
-		letter-spacing: 0.09em;
 	}
 	.infopromotion-wrap .right-sec .weather-box {
 		width: 325px;
@@ -414,7 +408,7 @@
 	.infopromotion-wrap .right-sec .weather-box div.weather_icon {
 		width: 170px;
 		height: 170px;
-		margin: 0 auto;
+		margin: 0 auto 35px;
 	}
 	.infopromotion-wrap .right-sec .weather-box div.temp span.temp {
 		font-size: 70px;
@@ -424,6 +418,6 @@
 	}
 	.infopromotion-wrap .center-sec .movie-box img,
 	.infopromotion-wrap .center-sec .movie-box video {
-		width: 1280px;
+		width: 1236px;
 	}
 }

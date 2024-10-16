@@ -74,6 +74,10 @@
 	letter-spacing: 0.1em;
 }
 
+.ict_tit {
+	color: #8b95a1;
+}
+
 .daily_wrap {
 	background: #272930;
 }
@@ -199,8 +203,10 @@
 	}
 	.ict_tit,
 	.ict_tit_01 {
-		font-size: 16px;
-		letter-spacing: 0.05em; /* width: 1920px; */
+		font-size: 16px; /* width: 1920px; */
+	}
+	.ict_tit {
+		letter-spacing: 0.05em;
 	}
 	.ticker {
 		width: 100%;

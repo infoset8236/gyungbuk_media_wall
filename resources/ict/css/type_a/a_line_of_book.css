@@ -33,6 +33,10 @@
 }
 .bookline-wrap .li_book_tit span {
 	font-family: 'SeoulHangangCm-Regular';
+	transform: translate(50px, -50px) rotate(15deg) skew(5deg, 2deg); /* 랜덤한 위치와 기울기 */
+	transition:
+		opacity 1s,
+		transform 2s ease-out; /
 }
 
 .bookline-wrap .li_book_tit_02 {

@@ -80,6 +80,7 @@
 	margin: 0 12px !important;
 	border-radius: 50%;
 	background: #adb5bd;
+	opacity: 1;
 }
 .today_wrap span.swiper-pagination-bullet-active {
 	background: #fff;

@@ -24,13 +24,16 @@
 	font-size: 100px;
 	font-weight: 400;
 	line-height: 150%;
-	margin: 150px 0 100px 0 !important;
+	margin: 100px 0 60px 0 !important;
 	text-align: center;
-	letter-spacing: -0.02em;
 	color: #191f28;
 }
 .bookline-wrap .li_book_tit span {
 	font-family: 'NanumMyeongjo';
+	transform: translate(50px, -50px) rotate(15deg) skew(5deg, 2deg); /* 랜덤한 위치와 기울기 */
+	transition:
+		opacity 1s,
+		transform 2s ease-out; /* 부드러운 이동과 회전 */
 }
 .bookline-wrap .li_book_tit_02 {
 	font-family: 'Pretendard-Medium', sans-serif;
@@ -74,7 +77,7 @@
 	}
 	.bookline-wrap .li_book_tit {
 		font-size: 50px;
-		margin: 75px 0 50px 0 !important;
+		margin: 50px 0 30px 0 !important;
 	}
 
 	.bookline-wrap .li_book_tit_02 {
