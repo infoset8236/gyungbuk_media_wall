@@ -127,7 +127,7 @@
 	top: 50%;
 	box-shadow:
 		inset 0px 5px 5px 0px rgba(255, 255, 255, 0.2),
-		0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+		0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 	transform-origin: 0 0;
 	transform: rotate(0deg) scale(1, -1);
 }
@@ -393,7 +393,7 @@
 		border-radius: 0px 0px 12px 12px;
 		box-shadow:
 			inset 0px 3px 3px 0px rgba(255, 255, 255, 0.2),
-			0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+			0px 0px 2px 0px rgba(0, 0, 0, 0.25);
 	}
 	.num_mark_con {
 		border-radius: 12px 12px 0px 0px;
