@@ -151,10 +151,11 @@
 		0 0 60px var(--clr);
 }
 .infopromotion-wrap .left-sec .date-txt {
-	font-size: 32px;
+	font-size: 28px;
 	margin-top: 69px;
 	text-align: center;
 	color: #fff;
+	letter-spacing: -0.84px;
 }
 .infopromotion-wrap .left-sec .time-txt {
 	font-size: 90px;
@@ -382,7 +383,7 @@
 	}
 
 	.infopromotion-wrap .left-sec .date-txt {
-		font-size: 16px;
+		font-size: 14px;
 		margin-top: 35px;
 	}
 	.infopromotion-wrap .left-sec .time-txt {
