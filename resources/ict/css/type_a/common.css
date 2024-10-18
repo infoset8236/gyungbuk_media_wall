@@ -71,9 +71,10 @@
 	font-size: 32px;
 	font-weight: 600;
 	text-align: left;
+}
+.ict_tit_01 {
 	letter-spacing: 0.1em;
 }
-
 .ict_tit {
 	color: #8b95a1;
 }
